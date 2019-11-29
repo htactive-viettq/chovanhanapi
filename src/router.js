@@ -8,9 +8,9 @@ router.get('/', (req, res) => {
 
 router.get('/v1/public/post-values', (req, res) => {
   res.json({
-    "userCount": 2167,
-    "postCount": 1987,
-    "receivedCount": 1871
+    "userCount": 2067,
+    "postCount": 655,
+    "receivedCount": 535
   })
 })
 
